@@ -1,3 +1,6 @@
+/**
+ * Clase principal
+ */
 package org.vigo.autofirma;
 
 import es.gob.afirma.cert.signvalidation.DataAnalizerUtil;
