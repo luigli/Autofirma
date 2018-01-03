@@ -102,7 +102,7 @@ public final class AutoFirma {
         //new AutoFirma().pruebaXAdES();
         //new AutoFirma().verifySignature("/home/luis/Descargas/firma5.xsig");
         XAdES xades = new XAdES();
-        xades.cargaDatosFirma("/home/luis/Descargas/firma5.xsig");
+        xades.cargaDatosFirma("/home/luis/Descargas/firma3.xsig");
         System.out.println(xades.getFirmantesLong());
         System.out.println(xades.getNombreDocumento());
         
